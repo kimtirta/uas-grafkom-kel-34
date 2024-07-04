@@ -1,0 +1,178 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.4.1"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 2964,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 881,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -0.0873815194, -0.114371069, -0.0160795934 ],
+			"max": [ 0.08738143, 0.40703705, 0.0160795934 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 881,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 881,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 881,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 881,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "SM_Dagger_2.bin",
+			"byteLength": 55264
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 5928,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 10572,
+			"byteOffset": 5928,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 10572,
+			"byteOffset": 16500,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 14096,
+			"byteOffset": 27072,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 7048,
+			"byteOffset": 41168,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 7048,
+			"byteOffset": 48216,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "T_Weapon_Set1_BaseColor.png"
+		},
+		{
+			"uri": "T_Weapon_Set1_OcclusionRoughnessMetallic.png"
+		},
+		{
+			"uri": "T_Weapon_Set1_Normal.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "M_WeaponSet_1",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			},
+			"occlusionTexture":
+			{
+				"index": 1
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "SM_Dagger_2",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "T_Weapon_Set1_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "T_Weapon_Set1_OcclusionRoughnessMetallic",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "T_Weapon_Set1_Normal",
+			"sampler": 0,
+			"source": 2
+		}
+	]
+}
